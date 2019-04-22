@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Snake game</title>
+
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <section id="main">
+        <p>Points: <span id="points">0</span></p>
+        <div class="container">
+            <div id="overlay">
+                <div id="overlay-body">
+                    <p>You lose :(</p>
+                    <button id="restartButton">Play again</button>
+                </div>
+            </div>
+            <canvas id="app" width="200" height="200" tabindex="0">
+                Not supported
+            </canvas>
+        </div>
+    </section>
+
+    <script async type="module" src="/src/index.js"></script>
+</body>
+</html>

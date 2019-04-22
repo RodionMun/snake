@@ -1,0 +1,14 @@
+{
+  "name": "snake",
+  "version": "1.0.0",
+  "description": "The snake game for an interview at Neotech",
+  "main": "src/index.js",
+  "author": "Rodion",
+  "license": "MIT",
+  "dependencies": {
+    "http-server": "^0.11.1"
+  },
+  "scripts": {
+    "start": "http-server"
+  }
+}

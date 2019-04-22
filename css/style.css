@@ -1,0 +1,29 @@
+body {
+    color: #303F9F;
+    background-color: #EEE;
+}
+
+#main {
+    text-align: center;
+}
+
+.container {
+    display: inline-block;
+    border: 2px solid #616161;
+    position: relative;
+    height: 200px;
+    width: 200px;
+}
+
+#overlay {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    z-index: -1;
+    color: #FAFAFA;
+    background: #424242;
+}
+
+#app {
+    background-color: #EEE;
+}
